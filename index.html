@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Patterns</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex flex-row flex-jc-center">
+        <div class="tools"></div>
+        <div class="flex flex-column">
+            <div class="colors">
+                <div class="color-tile" id="white"></div>
+                <div class="color-tile" id="red"></div>
+                <div class="color-tile" id="blue"></div>
+                <div class="color-tile" id="green"></div>
+                <div class="color-tile" id="black"></div>
+            </div>
+            <div class="canvas"></div>
+            <div class="context-container">
+                <div class="context"></div>
+                <div class="selected">
+                    <div id="text">Selected Color:</div>
+                    <div id="color"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/dist/src/app.js"></script>
+</body>
+
+</html>
